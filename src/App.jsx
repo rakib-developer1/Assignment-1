@@ -1,5 +1,5 @@
 import Companies from "./components/Companies";
-import FAQ from "./components/FAQ";
+import FAQ from "./components/Faq";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";

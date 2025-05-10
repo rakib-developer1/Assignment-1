@@ -1,3 +1,4 @@
+import heroImg from "src/assets/hero.png";
 import FigmaIcon from "./icons/FigmaIcon";
 import GitHubIcon from "./icons/GitHubIcon";
 
@@ -37,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="src/assets/hero.png" alt="hero image" />
+          <img src={heroImg} alt="hero image" />
         </div>
       </div>
     </section>

@@ -1,4 +1,6 @@
+import featureImg2 from "src/assets/feature/feature-2.png";
 import CheckIcon1 from "./icons/CheckIcon1";
+
 const SubService2 = () => {
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
@@ -6,7 +8,7 @@ const SubService2 = () => {
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="src/assets/feature/feature-2.png"
+            src={featureImg2}
             alt="feature image 2"
           />
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">

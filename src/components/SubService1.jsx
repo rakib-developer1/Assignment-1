@@ -1,3 +1,4 @@
+import featureImg from "src/assets/feature/feature-1.png";
 import CheckIcon1 from "./icons/CheckIcon1";
 
 const SubService1 = () => {
@@ -44,7 +45,7 @@ const SubService1 = () => {
           </div>
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="src/assets/feature/feature-1.png"
+            src={featureImg}
             alt="dashboard feature image"
           />
         </div>

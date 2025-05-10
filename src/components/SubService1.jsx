@@ -1,4 +1,4 @@
-import featureImg from "src/assets/feature/feature-1.png";
+import featureImg from "../assets/feature/feature-1.png";
 import CheckIcon1 from "./icons/CheckIcon1";
 
 const SubService1 = () => {

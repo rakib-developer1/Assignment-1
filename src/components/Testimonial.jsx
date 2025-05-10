@@ -1,4 +1,4 @@
-import tesimoniImg from "src/assets/avatar/michael-gouch.png";
+import tesimoniImg from "../assets/avatar/michael-gouch.png";
 import QuoteIcon from "./icons/QuoteIcon";
 
 const Testimonial = () => {

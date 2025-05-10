@@ -1,4 +1,4 @@
-import heroImg from "src/assets/hero.png";
+import heroImg from "../assets/hero.png";
 import FigmaIcon from "./icons/FigmaIcon";
 import GitHubIcon from "./icons/GitHubIcon";
 

@@ -1,3 +1,4 @@
+import Logo from "../assets/logo.svg";
 import DownloadButton from "./common/DownloadButton";
 import NavLink from "./common/NavLink";
 
@@ -16,7 +17,7 @@ const Header = () => {
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <a href="#" className="flex items-center">
-            <img className="h-6 mr-3 sm:h-9" src="src/assets/logo.svg" alt="" />
+            <img className="h-6 mr-3 sm:h-9" src={Logo} alt="" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Learn with Sumit
             </span>

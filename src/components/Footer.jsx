@@ -1,4 +1,5 @@
 /* eslint-disable */
+import Logo from "../assets/logo.svg";
 import DribbbleIcon from "./icons/DribbbleIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import GitHubIcon from "./icons/GitHubIcon";
@@ -88,7 +89,7 @@ const Footer = () => {
             href="#"
             className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            <img className="h-6 mr-3 sm:h-9" src="src/assets/logo.svg" alt="" />
+            <img className="h-6 mr-3 sm:h-9" src={Logo} alt="" />
             Learn with Sumit
           </a>
           <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
